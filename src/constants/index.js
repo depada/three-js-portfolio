@@ -142,6 +142,16 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Accenture',
+    pos: 'Associate Software Engineer',
+    duration: 'Sep 2024 - Present',
+    title:
+      'Currently working as an Associate Software Engineer, focusing on full-stack development and contributing to various software engineering projects. Gaining hands-on experience in a dynamic, collaborative team environment.',
+    icon: '/assets/acc.png',
+    animation: 'victory',
+  },
+  {
+    id: 2,
     name: 'The Patterns Company',
     pos: 'Software Developer',
     duration: 'Oct 2023 - Dec 2023',
@@ -151,7 +161,7 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 3,
     name: 'CodeClause',
     pos: 'Android Developer Intern',
     duration: 'Sep 2023 - Oct 2023',
@@ -160,8 +170,9 @@ export const workExperiences = [
     icon: '/assets/codeclause.png',
     animation: 'clapping',
   },
+
   {
-    id: 3,
+    id: 4,
     name: 'CodeClause',
     pos: 'Web Developer Intern',
     duration: 'Jun 2023 - Jul 2023',
@@ -169,15 +180,5 @@ export const workExperiences = [
       'Developed a web-based todo list application using PostgreSQL and implemented a contact form with captcha verification to enhance security.',
     icon: '/assets/codeclause.png',
     animation: 'salute',
-  },
-  {
-    id: 4,
-    name: 'Accenture',
-    pos: 'Associate Software Engineer',
-    duration: 'Sep 2024 - Present',
-    title:
-      'Currently working as an Associate Software Engineer, focusing on full-stack development and contributing to various software engineering projects. Gaining hands-on experience in a dynamic, collaborative team environment.',
-    icon: '/assets/acc.png',
-    animation: 'victory',
   },
 ];
