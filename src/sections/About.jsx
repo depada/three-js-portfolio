@@ -24,10 +24,36 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">Hi, I’m Pavan Kolipaka</p>
-              <p className="grid-subtext">
-                A passionate Full Stack Developer skilled in creating scalable web and mobile applications using
-                Next.js, React.js, and the MERN stack to deliver impactful solutions.
-              </p>
+              <section
+                className="rounded-3xl border border-zinc-200/60 dark:border-zinc-800/70
+             bg-gradient-to-br from-white to-zinc-50/60 dark:from-zinc-900/60 dark:to-zinc-900/30
+             shadow-sm ring-1 ring-black/5 px-5 py-6 sm:px-7 sm:py-8">
+                <h2 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-2">
+                  About
+                </h2>
+
+                <p className="grid-subtext text-[15px] leading-7 text-zinc-800 dark:text-zinc-200">
+                  I build fast, accessible React/Next.js UIs and robust Spring Boot services. I design REST APIs, model
+                  data, add Redis/Kafka, and ship on Docker/AWS.
+                </p>
+
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {[
+                    'Lighthouse Perf 92/100',
+                    'TTFF 1.8s → 0.9s',
+                    'Checkout 96.8% (sandbox)',
+                    'p95 API 210ms → 95ms',
+                  ].map((chip) => (
+                    <li
+                      key={chip}
+                      className="rounded-full border border-zinc-200/60 dark:border-zinc-700
+                   bg-zinc-100 dark:bg-zinc-800/80
+                   px-3 py-1 text-xs sm:text-sm text-zinc-700 dark:text-zinc-300">
+                      {chip}
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
           </div>
         </div>
@@ -38,10 +64,41 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
-                Proficient in TypeScript, Appwrite, Firebase, and Node.js, I create efficient, adaptable applications
-                while mastering emerging technologies.
-              </p>
+              <div
+                className="grid-subtext rounded-2xl border border-zinc-200/60 dark:border-zinc-800/70
+             bg-gradient-to-br from-white to-zinc-50/60 dark:from-zinc-900/60 dark:to-zinc-900/30
+             shadow-sm ring-1 ring-black/5 px-4 py-3">
+                <p className="text-sm font-medium text-zinc-800 dark:text-zinc-200 mb-2">Tech stack</p>
+                <ul className="flex flex-wrap gap-2 text-sm">
+                  {[
+                    'React/Next.js (TS)',
+                    'Tailwind/Sass',
+                    'shadcn/ui',
+                    'GSAP',
+                    'Vite/Webpack',
+                    'Code splitting',
+                    'Lazy loading',
+                    'Lighthouse',
+                    'Spring Boot 3',
+                    'REST (JWT/OAuth2)',
+                    'Postgres/MySQL',
+                    'Redis',
+                    'Kafka',
+                    'Appwrite/Twilio',
+                    'Clerk/getstream',
+                    'Docker',
+                    'AWS',
+                    'GitHub Actions',
+                  ].map((item) => (
+                    <li
+                      key={item}
+                      className="rounded-full bg-zinc-100 dark:bg-zinc-800/80 text-zinc-700 dark:text-zinc-300
+                   border border-zinc-200/60 dark:border-zinc-700 px-3 py-1">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -74,11 +131,34 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
-                Coding is more than work for me — It's my passion. I enjoy solving challenges, exploring emerging
-                technologies, and creating applications that add value while enhancing my knowledge and skills.
-              </p>
+              <section
+                className="rounded-3xl border border-zinc-200/60 dark:border-zinc-800/70
+             bg-gradient-to-br from-white to-zinc-50/60 dark:from-zinc-900/60 dark:to-zinc-900/30
+             shadow-sm ring-1 ring-black/5 px-5 py-6 sm:px-7 sm:py-8">
+                <p
+                  className="grid-headtext text-2xl sm:text-[28px] font-semibold
+                bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-rose-500
+                bg-clip-text text-transparent mb-2">
+                  My Passion for Coding
+                </p>
+
+                <p className="grid-subtext text-[15px] leading-7 text-zinc-800 dark:text-zinc-200">
+                  Code is my craft—not just my job. I love turning ideas into fast, accessible products and keep pushing
+                  myself with new tech, better UX, and measurable improvements release after release.
+                </p>
+
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {['Craft', 'Speed', 'Reliability', 'UX', 'Accessibility'].map((chip) => (
+                    <li
+                      key={chip}
+                      className="rounded-full bg-zinc-100 dark:bg-zinc-800/80
+                   border border-zinc-200/60 dark:border-zinc-700
+                   px-3 py-1 text-xs sm:text-sm text-zinc-700 dark:text-zinc-300">
+                      {chip}
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
           </div>
         </div>
