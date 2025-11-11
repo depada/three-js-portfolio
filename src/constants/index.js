@@ -59,7 +59,7 @@ export const myProjects = [
     desc: 'Replicates Zoom functionalities like secure logins, meeting creation, participant management, screen sharing, recording, and real-time collaboration.',
     subdesc:
       'Developed with Next.js, TypeScript, Clerk, and Tailwind CSS for a robust and scalable video conferencing platform.',
-    href: 'https://video-conferencing-black.vercel.app/',
+    href: 'https://video-conferencing-yoom-meeting.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/yoom-logo.svg',
     logoStyle: {
